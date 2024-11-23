@@ -2,9 +2,9 @@ import React from "react";
 
 export default function PaginaIntegrantes() {
   const pessoas = [
-    { nome: "Vinicius Murtinho Vicente", rm: 551151, turma: "1TDSPX" },
-    { nome: "Ryan Barreto Maciel", rm: 558678, turma: "1TDSPX" },
-    { nome: "Guilherme Alves Cabal", rm: 558699, turma: "1TDSPX" },
+    { nome: "Vinicius Murtinho Vicente", rm: 551151, turma: "1TDSPY" },
+    { nome: "Ryan Barreto Maciel", rm: 558678, turma: "1TDSPY" },
+    { nome: "Guilherme Alves Cabal", rm: 558699, turma: "1TDSPY" },
   ];
 
   return (

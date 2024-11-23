@@ -180,7 +180,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>-----------</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -269,7 +268,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>-----------</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -358,7 +356,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -444,7 +441,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -533,7 +529,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -622,7 +617,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -711,7 +705,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -800,7 +793,6 @@ export default function Cliente() {
                 </div>
               </>
             )}
-            <div>************</div>
 
             {/* Computador ou Notebook */}
             <div className="mb-6">
@@ -847,7 +839,6 @@ export default function Cliente() {
               </fieldset>
             </div>
 
-            {/* Potência e Tempo de Uso - Computador */}
             {cliente.panela_eletrica === "sim" && (
               <>
                 <div className="mb-4">
@@ -890,7 +881,6 @@ export default function Cliente() {
               </>
             )}
 
-            {/* Botão de Enviar */}
             <div className="text-center mt-6">
               <button
                 type="submit"

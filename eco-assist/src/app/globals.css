@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between; /* Para distribuir os itens de forma que fiquem nos extremos */
+  align-items: center; /* Alinha verticalmente a imagem e a lista */
+  padding: 10px 20px; /* Adiciona algum preenchimento ao redor do menu */
+  background-color: #333; /* Cor de fundo do menu */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Para centralizar verticalmente */
+  background-color: #f0f0f0; /* Cor de fundo suave para contrastar com a div azul */
+}
+
+.form-container {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px; /* Defina uma largura fixa ou flexível conforme preferir */
+}
+
+.form-container div {
+  margin-bottom: 5px; /* Espaço de 5 pixels entre os elementos */
+}
+
+h2 {
+  color: white; /* Cor do título */
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white; /* Cor dos rótulos */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+fieldset {
+  border: 2px solid white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+legend {
+  color: white;
+  font-weight: bold;
+}
